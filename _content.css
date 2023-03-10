@@ -39,15 +39,11 @@
 .logoTitle {
   display: grid;
   justify-content: center;
-  padding: 20px;
-  margin: 10px;
 }
 
 .logo {
   display: grid;
   justify-content: center;
-  padding: 20px;
-  margin: 10px;
 }
 
 .wrapper {
