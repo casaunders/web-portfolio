@@ -62,15 +62,11 @@ img {
   box-shadow: var(--shadow);
 }
 
-.portfolio img:hover {
-  transition: cubic-bezier();
-}
-
 footer {
   margin-top: 20px;
   background: var(--primary);
   color: var(--secondary);
   text-align: left;
-  padding: 20px;
+  padding: 12px;
   box-shadow: var(--shadow);
 }
