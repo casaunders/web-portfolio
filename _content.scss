@@ -12,7 +12,7 @@
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(3, 1fr);
-  }
+}
 
 .menu a {
     background: var(--primary);
@@ -24,28 +24,32 @@
     text-transform: uppercase;
     font-size: 24px;
     box-shadow: var(--shadow);
-  }
+}
 
 .menu a:hover {
     background: black;
     color: white;
-  }
+}
 
 .billboard {
     display: grid;
     justify-content: center;
-  }
+}
 
 .logoTitle {
     display: grid;
     justify-content: center;
-    grid-gap: 20px;
-  }
+}
+
+.logo {
+    display: grid;
+    justify-content: center;
+}
 
 .wrapper {
     display: grid;
     grid-gap: 20px;
-  }
+}
 
 img{
     max-width: 100%;
@@ -67,6 +71,6 @@ footer {
     background: var(--primary);
     color: var(--secondary);
     text-align: left;
-    padding: 12px;
+    padding: 20px;
     box-shadow: var(--shadow);
 }

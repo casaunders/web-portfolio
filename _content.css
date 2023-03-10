@@ -39,7 +39,15 @@
 .logoTitle {
   display: grid;
   justify-content: center;
-  grid-gap: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.logo {
+  display: grid;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
 }
 
 .wrapper {
@@ -67,6 +75,6 @@ footer {
   background: var(--primary);
   color: var(--secondary);
   text-align: left;
-  padding: 12px;
+  padding: 20px;
   box-shadow: var(--shadow);
 }
