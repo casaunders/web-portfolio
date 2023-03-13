@@ -45,12 +45,16 @@
 .aboutTitle {
   margin: 2px;
   display: grid;
-  justify-content: left;
+  justify-content: center;
 }
 
 .logo {
   display: grid;
   justify-content: center;
+}
+
+.aboutTitle img {
+  box-shadow: var(--shadow);
 }
 
 .wrapper {
@@ -81,6 +85,7 @@ img {
 }
 
 footer {
+  display: grid;
   margin-top: 20px;
   background: var(--primary);
   color: var(--secondary);

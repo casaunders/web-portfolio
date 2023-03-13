@@ -1,5 +1,5 @@
 :root {
-  --primary: #ddd;
+  --primary: white;
   --secondary: black;
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
@@ -63,12 +63,16 @@ body {
 .aboutTitle {
   margin: 2px;
   display: grid;
-  justify-content: left;
+  justify-content: center;
 }
 
 .logo {
   display: grid;
   justify-content: center;
+}
+
+.aboutTitle img {
+  box-shadow: var(--shadow);
 }
 
 .wrapper {
@@ -99,6 +103,7 @@ img {
 }
 
 footer {
+  display: grid;
   margin-top: 20px;
   background: var(--primary);
   color: var(--secondary);
@@ -107,7 +112,7 @@ footer {
   box-shadow: var(--shadow);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .menu ul {
     grid-template-columns: 1fr;
   }
